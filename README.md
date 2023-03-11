@@ -1,6 +1,33 @@
-# Getting Started with Create React App and Redux
+# Netflix Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/), [Redux Toolkit](https://redux-toolkit.js.org/) template and [Firebase](https://firebase.google.com/).
+
+![Netflix Clone Demo](netflixClone.gif)
+
+## Features and Fuctionality
+
+-   Responsive Design
+-   Firebase authenticated SignIn/SignUp
+-   Realtime movies update
+-   Auto authenticate user on refresh
+
+## How to setup your firebase account
+
+    - Create Firebase account
+    - Create a new project
+    - Create a database for netflix-clone
+    - Copy your config from there
+
+        - Select config option
+        - Paste those config inside src/firebase.js file
+
+    - Setup authentication email/password using Firebase
+
+## Future Plans
+
+-   Might add more login methods
+-   Adding add to list functionality
+-   Adding recommended movies functionality
 
 ## Available Scripts
 
